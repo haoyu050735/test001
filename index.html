@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.85">
+<title>拾歲-關卡查詢系統</title>
+<link rel="stylesheet" type="text/css" href="login.css"/>
+<script type="text/javascript" src="login.js"></script>
+</head>
+<body bgcolor="#e0e0e0">
+<div id="login_frame">                    
+<label class="title"><h1>拾歲-關卡查詢系統</h1></label>
+
+<form method="post" action="login.js">
+<p><label class="label_upnote">使用說明</label></p>
+<p><label class="label_describe">
+(還沒)若輸入關卡編號，如：A1-01、C1-03，則顯示該關內容<br>
+若輸入英文數字，如：A1、C1，則顯示整條線的內容<br>
+注意：支線的代號是D<br></label></p>
+<p><label class="label_note">請輸入關卡編號</label></p>
+<p><input type="text" id="username" class="text_field"/></p>
+<p><div id="login_control">
+<input type="button" id="btn_login" value="送出" onclick="login();"/>
+</div></p>
+<p><span class="white">-或者，你也可以選擇-</span></p>
+<p><div id="login_main"><input type="button" id="btn_npc" value="依關主查詢(還沒)" onclick="login();"/></div></p>
+<p><div id="login_main"><input type="button" id="btn_npc" value="依關卡查詢(還沒)" onclick="login();"/></div></p>
+<p><div id="login_main"><input type="button" id="btn_npc" value="依道具查詢(還沒)" onclick="login();"/></div></p>
+</form>
+</div>
+</body>
+</html>

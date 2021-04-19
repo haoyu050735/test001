@@ -1,0 +1,118 @@
+
+body {
+background-image: url("images/login/loginBac.jpg");;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#login_frame {
+width: 400px;
+padding: 13px;
+position: absolute;
+left: 50%;
+top: 30%;
+margin-left: -200px;
+margin-top: -200px;
+background-color: rgb(46,47,51);
+border-radius: 10px;
+text-align: center;
+}
+form p > * {
+display: inline-block;
+vertical-align: middle;
+}
+#image_logo {
+margin-top: 22px;
+}
+.title {
+font-size: 14px;
+font-family: "微軟正黑體";
+width: 65px;
+height: 28px;
+line-height: 28px;
+text-align: center;
+color: white;
+background-color: #1b344e;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.label_describe {
+font-size: 14px;
+font-family: "微軟正黑體";
+width: 350px;
+
+line-height: 28px;
+text-align: left;
+color: white;
+background-color: rgb(46,47,51);
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+}
+.label_note {
+font-size: 14px;
+font-family: "微軟正黑體";
+width: 350px;
+line-height: 2px;
+text-align: center;
+color: white;
+background-color: rgb(46,47,51);
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+}
+.label_upnote {
+font-size: 18px;
+font-family: "微軟正黑體";
+width: 350px;
+line-height: 2px;
+text-align: center;
+color: white;
+background-color: rgb(46,47,51);
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+}
+.white {color: white;}
+.text_field {
+width: 350px;
+height: 30px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+border: 0;
+}
+#btn_login {
+font-size: 14px;
+font-family: "微軟正黑體";
+width: 175px;
+height: 28px;
+line-height: 28px;
+text-align: center;
+color: white;
+background-color: rgb(52,152,219);
+border-radius: 50px;
+border: 0;
+float: center;
+}
+#btn_npc {
+font-size: 14px;
+font-family: "微軟正黑體";
+font-weight: bold;
+width: 350px;
+padding: 8px;'
+line-height: 28px;
+text-align: center;
+color: white;
+background-color: #2ebd59;
+border-radius: 50px;
+border: 0;
+float: center;
+}
+
+
+}
